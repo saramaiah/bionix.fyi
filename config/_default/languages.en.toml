@@ -1,0 +1,87 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Bionix"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name =  "Theo"
+  email = "theo@bionix.fyi"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  headline = "Early Career Software/DevOps/Cloud Engineer. BA in CS @ CWRU, 2025."
+  bio = "My career started in 2022 as an intern at Amazon Web Services working on a very senior security team. For two Summers my brilliant and supportive team rocketed my skill and interest in Cloud and Declarative engineering. By the time the team was dissolved in 2024 (due to high-level internal shenanigans) I was fluent in a wide array of technical and non-technical skills--with an emphasis on Cloud, Security, Containers and Soft Skills like leadership, writing documents, technical presentations, etc. During Fall break of my Junior year at Case Western, I met Sara :growing_heart: while bartending at a party. Things went fast, then even faster; by the time the semester was over we were already moving into an apartment together. That Summer, I left to meet my new team, EKS Node Runtime, for my third and final internship. This final internship allowed me to learn tools like Hashicorp's Packer, learn new things about the Linux Kernel and to experience the majesty of Golang. Following this internship Sara and I were confronted with our post-graduation plans; Sara was applying to NIH funded MD PhD programs, and I wanted to continue my career in FAANG. Then the news broke of Amazon's new RTO policy and the riots that ensued, Trump won the election and immediately gutted the NIH. Both our respective industries had entered an era of turbulence. We decided to settle down in Chicago; we have a large support newtwork there, and Chicago is one of the few major cities without a housing/poverty crisis. Guided by my friend/ex-manager, Senior Security Architect James Loope, I'm now looking for work at small to midsize tech companies."
+  links = [
+    { email = "mailto:theo@bionix.fyi" },
+    { link = "https://bionix.fyi/" },
+    { linkedin = "https://www.linkedin.com/in/theo-bionix/" },
+    { github = "https://github.com/trm109" }
+  ]
+
+# [params.author]
+#   name = "Your name here"
+#   email = "youremail@example.com"
+#   image = "img/blowfish_logo.png"
+#   imageQuality = 96
+#   headline = "I'm only human"
+#   bio = "A little bit about you"
+#   links = [
+#     { email = "mailto:hello@your_domain.com" },
+#     { link = "https://link-to-some-website.com/" },
+#     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+#     { apple = "https://www.apple.com" },
+#     { blogger = "https://username.blogspot.com/" },
+#     { bluesky = "https://bsky.app/profile/username" },
+#     { codepen = "https://codepen.io/username" },
+#     { dev = "https://dev.to/username" },
+#     { discord = "https://discord.gg/invitecode" },
+#     { dribbble = "https://dribbble.com/username" },
+#     { facebook = "https://facebook.com/username" },
+#     { flickr = "https://www.flickr.com/photos/username/" },
+#     { foursquare = "https://foursquare.com/username" },
+#     { github = "https://github.com/username" },
+#     { gitlab = "https://gitlab.com/username" },
+#     { google = "https://www.google.com/" },
+#     { hashnode = "https://username.hashnode.dev" },
+#     { instagram = "https://instagram.com/username" },
+#     { itch-io = "https://username.itch.io" },
+#     { keybase = "https://keybase.io/username" },
+#     { kickstarter = "https://www.kickstarter.com/profile/username" },
+#     { lastfm = "https://lastfm.com/user/username" },
+#     { linkedin = "https://linkedin.com/in/username" },
+#     { mastodon = "https://mastodon.instance/@username" },
+#     { medium = "https://medium.com/username" },
+#     { microsoft = "https://www.microsoft.com/" },
+#     { orcid = "https://orcid.org/userid" },
+#     { patreon = "https://www.patreon.com/username" },
+#     { pinterest = "https://pinterest.com/username" },
+#     { reddit = "https://reddit.com/user/username" },
+#     { researchgate = "https://www.researchgate.net/profile/username" },
+#     { slack = "https://workspace.url/team/userid" },
+#     { snapchat = "https://snapchat.com/add/username" },
+#     { soundcloud = "https://soundcloud.com/username" },
+#     { spotify = "https://open.spotify.com/user/userid" },
+#     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#     { steam = "https://steamcommunity.com/profiles/userid" },
+#     { telegram = "https://t.me/username" },
+#     { threads = "https://www.threads.net/@username" },
+#     { tiktok = "https://tiktok.com/@username" },
+#     { tumblr = "https://username.tumblr.com" },
+#     { twitch = "https://twitch.tv/username" },
+#     { twitter = "https://twitter.com/username" },
+#     { x-twitter = "https://twitter.com/username" },
+#     { whatsapp = "https://wa.me/phone-number" },
+#     { youtube = "https://youtube.com/username" },
+#     { ko-fi = "https://ko-fi.com/username" },
+#     { codeberg = "https://codeberg.org/username"},
+#   ]
