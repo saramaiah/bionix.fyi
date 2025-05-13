@@ -6,33 +6,33 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "catppuccin"
-#defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "dark" # valid options: light or dark
 #autoSwitchAppearance = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 replyByEmail = false
 
-# mainSections = ["section1", "section2"]
+mainSections = ["blog", "wiki"]
 # robots = ""
 
 disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "img/background.svg" # used as default for background images
+defaultFeaturedImage = "img/featured.svg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -42,13 +42,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/background.svg" # used in: hero, and card
   showRecent = false
-  showRecentItems = 5
-  showMoreLink = false
-  showMoreLinkDest = "/posts/"
-  cardView = false
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "blog"
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
@@ -60,13 +60,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showDateUpdated = false
   showAuthor = true
   # showAuthorBottom = false
-  showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  #layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
+  showEdit = true
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   seriesOpened = false
@@ -74,54 +74,54 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
-  # showRelatedContent = false
+  showTableOfContents = true
+  showRelatedContent = true
   # relatedContentLimit = 3
-  showTaxonomies = false
-  showAuthorsBadges = false
-  showWordCount = true
+  showTaxonomies = true
+  showAuthorsBadges = true
+  showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
-  showZenMode = false
+  showZenMode = true
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  showBreadcrumbs = true
   showSummary = false
   showViews = false
   showLikes = false
-  showTableOfContents = false
-  showCards = false
-  orderByWeight = false
-  groupByYear = true
-  cardView = false
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+  showTableOfContents = true
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = true
+  constrainItemsWidth = true
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  excludedKinds = []
 
 [taxonomy]
   showTermCount = true
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
-  showTableOfContents = false
+  showTableOfContents = true
   cardView = false
 
 [term]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = true
   groupByYear = false
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
 
 [firebase]
